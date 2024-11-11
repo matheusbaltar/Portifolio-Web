@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" href="assets/img/icone.jpg">
+
+        <title>Portifolio Web</title>
+    </head>
+    <body>
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Matheus</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#sobre" class="nav__link">Sobre</a></li>
+                        <li class="nav__item"><a href="#habilidades" class="nav__link">Habilidades</a></li>
+                        <li class="nav__item"><a href="#projetos" class="nav__link">Projetos</a></li>
+                        <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>              
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Matheus<br>Baltar<span class="home__title-color"> Dev</span><br><span class="home__title-color"> Web Designer</span></h1>
+
+                    <a href="#contato" class="button">Contate-me</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.instagram.com/matheusrbaltar/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://github.com/matheusbaltar" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">
+                        <img class="home__perfil-img" src="assets/img/perfil.png"/>
+                </div>
+            </section>
+
+            <section class="sobre section " id="sobre">
+                <h2 class="section-title">Sobre Mim</h2>
+
+                <div class="sobre__container bd-grid">
+                    <div class="sobre__img">
+                        <img src="assets/img/sobre.png" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="sobre__subtitle">Bem vindo</h2>
+                        <p class="sobre__text">Seja bem vindo ao meu perfil pessoal me chamo Matheus tenho 20 anos, 
+                            formado em Informática para Internet, curso técnico integrado ao ensino médio
+                             o qual aprendi o básico e passei a me interessar mais sobre a área de programação.
+                            Formando em Engenharia de Software na Univass.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <section class="habilidades section" id="habilidades">
+                <h2 class="section-title">Habilidades</h2>
+
+                <div class="habilidades__container bd-grid">          
+                    <div>
+                        <h2 class="habilidades__subtitle">Nível em Algumas Áreas</h2>
+                        <p class="habilidades__text">Habilidades as quais possuo um conhecimento básico 
+                            e busco aumentar meu conhecimento.</p>
+                        <div class="habilidades__data">
+                            <div class="habilidades__names">
+                                <i class='bx bxl-html5 habilidades__icon'></i>
+                                <span class="habilidades__name">HTML5</span>
+                            </div>
+                            <div class="habilidades__bar habilidades__html">
+
+                            </div>
+                            <div>
+                                <span class="habilidades__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="habilidades__data">
+                            <div class="habilidades__names">
+                                <i class='bx bxl-css3 habilidades__icon'></i>
+                                <span class="habilidades__name">CSS3</span>
+                            </div>
+                            <div class="habilidades__bar habilidades__css">
+                                
+                            </div>
+                            <div>
+                                <span class="habilidades__percentage">60%</span>
+                            </div>
+                        </div>
+                        <div class="habilidades__data">
+                            <div class="habilidades__names">
+                                <i class='bx bxl-javascript habilidades__icon' ></i>
+                                <span class="habilidades__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="habilidades__bar habilidades__js">
+                                
+                            </div>
+                            <div>
+                                <span class="habilidades__percentage">30%</span>
+                            </div>
+                        </div>
+                        <div class="habilidades__data">
+                            <div class="habilidades__names">
+                                <i class='bx bxs-paint habilidades__icon'></i>
+                                <span class="habilidades__name">UX/UI</span>
+                            </div>
+                            <div class="habilidades__bar habilidades__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="habilidades__percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/habilidades.jpg" alt="" class="habilidades__img">
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="projetos">
+                <div class="container">
+                    <h2 class="section-title">Projetos</h2>
+                    <div class="projects-grid">
+                        <div class="project-box">
+                            <img src="assets/img/contador.png" alt="Site de Receitas">
+                            <h3>Contador de Caracteres</h3>
+                            <p>Um contador de caracteres com Html, um Css chamativo e Java Script simples.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/matheusbaltar/Contador-de-Caracteres" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="assets/img/tarefas.png" alt="App de Tarefas">
+                            <h3>App de Tarefas</h3>
+                            <p>Uma Lista de Tarefas interativa usando Html, Css e um pouco de Javascript.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/matheusbaltar/To-Do-List" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="assets/img/conversor.png" alt="Blog Pessoal">
+                            <h3>Conversor</h3>
+                            <p>Um conversor de temperatura ecom HTML, CSS e JavaScript.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/matheusbaltar/Conversor" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> GitHub
+                            </div>
+                        </div>
+                        <div class="project-box">
+                            <img src="assets/img/cafeteria.png" alt="API RESTful">
+                            <h3>Cafeteria</h3>
+                            <p>Uma página para simular uma cafeteria com Html, Css.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/matheusbaltar/cafeteria" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contato section" id="contato">
+                 <h2 class="section-title">Contato</h2>
+    
+                  <div class="contato__container bd-grid">
+                     <form class="contato__form" id="formulario-contato">
+                        <div class="form-group">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required class="contato__input">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required class="contato__input">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" required class="contato__input"></textarea>
+                        </div>
+                        <button  class="contato__button button" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__social">
+                
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Matheus Baltar Code</p>
+        </footer>
+
+
+    </body>
+</html>
